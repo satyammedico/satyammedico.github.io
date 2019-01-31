@@ -1,1 +1,1 @@
-# satyammedico.github.io
+# https://satyammedico.com
