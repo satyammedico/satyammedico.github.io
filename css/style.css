@@ -476,13 +476,17 @@ button {
 }
 
 .features_header h3 {
-    max-width: 450px;
+    max-width: 850px;
 }
 
 .features_box {
     background: #254FD7;
 }
 
+.list-group-item.active {
+    background-color: #254FD7;
+    border-color: #2d25c8;
+}
 
 /*=====================
    0.9 TESTIMONIAL
@@ -710,4 +714,10 @@ textarea.form-control {
     .business_about_details h3 {
         font-size: 22px;
     }
+}
+
+@media (max-width: 580px) {
+	.corp_form_custom {
+		padding: 10px;
+	}
 }
