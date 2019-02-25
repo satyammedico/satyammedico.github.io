@@ -557,8 +557,10 @@ button {
   11.1. Products TABLE
 =======================*/
 
-table caption {padding: 0.5em 0;}
-
+.custom-table {
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
 
 /*====================
   12. GREAT PEOPLE
@@ -688,9 +690,6 @@ textarea.form-control {
     }
     .business_about_details h3 {
         font-size: 22px;
-    }
-    table caption {
-        border-bottom: 1px solid #ddd;
     }
 }
 
