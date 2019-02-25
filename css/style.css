@@ -208,7 +208,7 @@ button {
     font-size: 24px;
     margin-top: 5px;
     margin-bottom: 0px;
-    color: #ffffff;
+    color: #000;
 }
 
 .stickyadd .navbar-nav {
@@ -221,6 +221,7 @@ button {
 
 .custom_nav_menu .navbar-brand.logo img {
     height: 38px;
+    margin-top: -20px;
 }
 
 .stickyadd.custom_nav_menu {
@@ -292,7 +293,6 @@ button {
     background: #2D25C8;
     border-color: #2D25C8;
 }
-
 
 /*================
     04.HOME
@@ -663,10 +663,9 @@ textarea.form-control {
     15. RESPONSIVE
 =======================*/
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .custom_nav_menu {
         margin-top: 0px;
-        padding: 10px 0px !important;
         background-color: #fff !important;
     }
     .vertical_content_manage {
@@ -692,18 +691,16 @@ textarea.form-control {
     .custom_nav_menu .logo .logo-light {
         display: none;
     }
-    .custom_nav_menu .navbar-brand.logo img {
-        height: 26px;
-    }
     .navbar-nav {
         margin-top: 0px;
     }
     .navbar-toggler {
         font-size: 28px;
         margin-top: 0px;
-        margin-bottom: 0px;
-        color: #000;
     }
+}
+
+@media (max-width: 768px) {
     .h-100vh,
     .full_height_100vh_home {
         height: auto;
