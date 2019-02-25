@@ -541,45 +541,23 @@ button {
 
 
 /*====================
-  11. PRICING PLAN
+  11. Pricing TABLE
 =====================*/
 
-.price_box {
-    padding: 40px;
-}
+.price_box {padding: 40px;}
+.plan-name p {color: #5E5E5E; font-size: 16px;}
+.list_price_features {padding: 20px 0px;}
+.list_price_features p {margin-bottom: 10px;}
+.price_tag_heading span {font-size: 14px; font-weight: normal;}
+.price_tag_heading h2 {font-size: 52px;}
+.price_tag_heading sub {font-size: 22px;}
+.price_box.active {border: 3px solid #176af7; border-radius: 8px; position: relative; overflow: hidden;}
 
-.plan-name p {
-    color: #5E5E5E;
-    font-size: 16px;
-}
+/*======================
+  11.1. Products TABLE
+=======================*/
 
-.list_price_features {
-    padding: 20px 0px;
-}
-
-.list_price_features p {
-    margin-bottom: 10px;
-}
-
-.price_tag_heading span {
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.price_tag_heading h2 {
-    font-size: 52px;
-}
-
-.price_tag_heading sub {
-    font-size: 22px;
-}
-
-.price_box.active {
-    border: 3px solid #176af7;
-    border-radius: 8px;
-    position: relative;
-    overflow: hidden;
-}
+table caption {padding: 0.5em 0;}
 
 
 /*====================
@@ -710,6 +688,9 @@ textarea.form-control {
     }
     .business_about_details h3 {
         font-size: 22px;
+    }
+    table caption {
+        border-bottom: 1px solid #ddd;
     }
 }
 
