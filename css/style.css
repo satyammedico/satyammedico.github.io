@@ -1,6 +1,6 @@
 /*  Theme Name: SatyamMedico.com
     Author: pratik k. yadav
-    Version: 1.0.0
+    Version: 1.1.0
 */
 
 
@@ -678,6 +678,7 @@ textarea.form-control {
         font-size: 28px;
         margin-top: 0px;
     }
+    .btn {color: #0CBEFC;}
 }
 
 @media (max-width: 768px) {
