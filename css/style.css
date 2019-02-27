@@ -678,7 +678,7 @@ textarea.form-control {
         font-size: 28px;
         margin-top: 0px;
     }
-    .btn {color: #0CBEFC;}
+    .navbar-btn {color: #0CBEFC; border-color: rgba(0,0,0,.55)!important;}
 }
 
 @media (max-width: 768px) {
