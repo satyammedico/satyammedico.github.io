@@ -14,7 +14,7 @@ self.addEventListener("install", function (event) {
       console.log("[PWA Builder] Cached offline page during install");
 
       if (offlineFallbackPage === "index.html") {
-        return cache.add(new Response("403"));
+        return cache.add(new Response("200"));
       }
       
       return cache.add(offlineFallbackPage);
