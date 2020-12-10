@@ -275,9 +275,9 @@ button {
 
 .stickyadd .btn_outline {
     border: 2px solid #2D25C8;
-    background: transparent;
+    background: #ffc107;
     border-radius: 35px;
-    color: #2D25C8;
+    color: #000000;
 }
 
 .stickyadd .btn_outline:hover,
@@ -678,7 +678,7 @@ textarea.form-control {
         font-size: 28px;
         margin-top: 0px;
     }
-    .navbar-btn {color: #0CBEFC; border-color: rgba(0,0,0,.55)!important;}
+    .navbar-btn {color: #000000; background: #ffc107; border-color: rgba(0,0,0,.55)!important;}
 }
 
 @media (max-width: 768px) {
